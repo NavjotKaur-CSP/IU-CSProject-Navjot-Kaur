@@ -21,10 +21,10 @@ Passengers on Deutsche Bahn often face irregular train delays and disruptions be
 | **Frontend**         | React.js, Plotly.js                         | User interface for visualizing real-time predictions and analytics.        |
 | **Backend API**      | FastAPI, Flask                              | REST APIs for serving predictions, explanations, and handling requests.    |
 | **Database**         | PostgreSQL                                  | Store structured data, historical data, and prediction results.            |
-| **AI Engine**        | Scikit-learn, XGBoost, SHAP                | Machine learning models and interpretability for predicting delays.        |
+| **AI Engine**        | XGBoost, SHAP                | Machine learning models and interpretability for predicting delays.        |
 | **Data Ingestion**   | Python, Airflow, APIs                        | Collection, cleaning, and preprocessing of live and historical data.       |
 | **Integration**      | REST APIs, WebSockets                        | Connecting frontend, backend, and data pipelines for real-time updates.    |
-| **Data Sources**     | Deutsche Bahn Open Data API, OpenWeatherMap API, Calendar/Holiday API | Source data for train schedules, weather conditions, and holidays.        |
+| **Data Sources**     | OpenWeatherMap API, Calendar/Holiday API | Source data for train schedules, weather conditions, and holidays.        |
 
 # Project Risk
 1. Description: The Predictive Train Delay and Disruption Analysis system needs good, reliable data to work well. However Deutsche Bahn’s data like live delay reports, schedules, and disruption logs might not always be complete or easy to use. Other data sources, like weather updates or calendar events, can also have missing information, slow updates, or access limits. If the data is poor or limited, the machine learning model won’t perform as well.
