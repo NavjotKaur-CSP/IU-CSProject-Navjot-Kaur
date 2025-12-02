@@ -1,0 +1,19 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+
+# Node / React
+node_modules/
+dist/
+build/
+.env
+
+# Credentials
+*.json
+client_secret_*.json
+
+# OS
+.DS_Store
